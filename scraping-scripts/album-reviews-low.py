@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-"""Simple web page fetch + title extraction skeleton (Beautiful Soup)."""
 
 import time
 from urllib.request import Request, urlopen
