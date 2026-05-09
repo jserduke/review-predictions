@@ -1,0 +1,9 @@
+BACKGROUND: I scraped reviews and their corresponding scores from an album review website. I split the reviews into two groups: HIGH, with a score of 80 or greater, and LOW, with a score of 49 or less. Scores in between 50 and 79 have been excluded altogether.
+
+INSTRUCTIONS: With the provided review, guess whether it corresponds to a HIGH score or a LOW score. Only respond with a single word: "HIGH" or "LOW".
+
+RESTRICTION: Do not do any web searches.
+
+REVIEW: [review]
+
+SCORE:
