@@ -67,8 +67,8 @@ def write_outputs(
 
 def main() -> None:
     # CHANGE THESE PATHS
-    folder1 = Path("/Users/jasonserduke/Downloads/ReviewsNewThesholdsMoreDivided/test/high_80")
-    folder2 = Path("/Users/jasonserduke/Downloads/ReviewsNewThesholdsMoreDivided/test/low_50")
+    folder1 = Path("~/Downloads/ReviewsMidExcludedEqualSamplesSplit/test/high_80")
+    folder2 = Path("~/Downloads/ReviewsMidExcludedEqualSamplesSplit/test/low_50")
 
     combined_output = Path("reviews.txt")
     key_output = Path("key.txt")
