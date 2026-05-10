@@ -10,3 +10,6 @@
         - `ReviewsMidExcludedEqualSamplesSplit.zip` - Same as above, but 20% of each of the positive and negative reviews have been chosen for training. The structure now consists of two subfolders: `train` and `test`, each of which contains two subfolders, `low_50` and `high_80`, each of which contains review text files.
         - `reviews.txt` - First half of all-reviews.txt. Vast majority are positive.
         - `reviews-low.txt` - Second half of reviews.txt. More negative reviews in this one.
+    - `link-lists` - List of links to the albums that I collected reviews from.
+        - `review-links.txt` - List of links to review pages for albums from the 2020s. Reviews sorted by recent.
+        - `review-links-low.txt` - List of links to review pages for albums from the 2010s. Reviews sorted by worst.
