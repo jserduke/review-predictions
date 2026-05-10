@@ -13,3 +13,8 @@
     - `link-lists` - List of links to the albums that I collected reviews from.
         - `review-links.txt` - List of links to review pages for albums from the 2020s. Reviews sorted by recent.
         - `review-links-low.txt` - List of links to review pages for albums from the 2010s. Reviews sorted by worst.
+- `scraping-scripts` - If you want to try collecting the data yourself!
+    - `album-review-links.py` - Produces a text file containing a list of links to review pages on Album of The Year. 2020s albums, links sort reviews by most recent.
+    - `album-review-links-low.py` - Same as above, except 2010s albums and links sort reviews by worst.
+    - `album-reviews.py` - Produces a file containing many reviews of albums from the 2010s. **Takes several hours. This is on purpose, so that we don't send too many requests all at once.**
+    - `album-reviews-low.py` - Same as above, but from the 2010s. **Takes several hours. This is on purpose, so that we don't send too many requests all at once.**
