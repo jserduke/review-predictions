@@ -21,3 +21,6 @@
 - `data-split-scripts` - To split CSV files into individual text files and make testing set.
     - `Sorting.py` - Reorganizes single text file of reviews into folders of individual review text files according to whether they correspond to a low, mid, or high score. NR reviews excluded.
     - `MakeTestingSet.py` - Extracts 20% of files to put into a new folder for a testing set.
+- `modeling` - Python notebooks to build review score prediction models.
+    - `Hypermodel.ipynb` - Notebook which builds and tests my best found model.
+    - `Hypertuning.ipynb` - Notebook which uses KerasTuner to search for hyperparameter combination which results in the best model.
