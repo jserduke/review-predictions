@@ -24,3 +24,9 @@
 - `modeling` - Python notebooks to build review score prediction models.
     - `Hypermodel.ipynb` - Notebook which builds and tests my best found model.
     - `Hypertuning.ipynb` - Notebook which uses KerasTuner to search for hyperparameter combination which results in the best model.
+- `baselines` - Where files that helped assess my baselines reside.
+    - `LLMPrompt.txt` - The prompt structure that I used to assess the LLM. Just replace "[review]" with an actual review.
+    - `human` - Files for assessing a human's prediction ability.
+        - `MakeFilesForHumans.py` - Chooses 100 files from each of two folders, combines them, randomizes their order, and then produces two text files, a test and a key.
+        - `reviews.txt` - The test, 200 reviews, 100 positive and 100 negative, in random order.
+        - `key.txt` - The key, with each number corresponding the folder that it came from to the review in the test file.
