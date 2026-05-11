@@ -30,3 +30,59 @@
         - `MakeFilesForHumans.py` - Chooses 100 files from each of two folders, combines them, randomizes their order, and then produces two text files, a test and a key.
         - `reviews.txt` - The test, 200 reviews, 100 positive and 100 negative, in random order.
         - `key.txt` - The key, with each number corresponding the folder that it came from to the review in the test file.
+
+## Extracted ZIP File Hierarchies
+
+- `ReviewsSortedAgain.zip`
+ReviewsSortedAgain
+├── high_80
+│   ├── 0_100.txt
+│   ├── 5_95.txt
+│   ├── . . .
+│   └── 68688_80.txt
+├── low_50
+│   ├── 3_45.txt
+│   ├── 26_48.txt
+│   ├── . . .
+│   └── 68669_14.txt
+└── mid_50_80
+    ├── 1_65.txt
+    ├── 4_65.txt
+    ├── . . .
+    └── 68679_70.txt
+- `ReviewsMidExcludedEqualSamples.zip`
+ReviewsMidExcludedEqualSamples
+├── high_80
+│   ├── 0_100.txt
+│   ├── 5_95.txt
+│   ├── . . .
+│   └── 16428_80.txt
+└── low_50
+    ├── 3_45.txt
+    ├── 26_48.txt
+    ├── . . .
+    └── 68669_14.txt
+- `ReviewsMidExcludedEqualSamplesSplit.zip`
+ReviewsMidExcludedEqualSamplesSplit
+├── test
+│   ├── high_80
+│   │   ├── 11_80.txt
+│   │   ├── 31_98.txt
+│   │   ├── . . .
+│   │   └── 16426_92.txt
+│   └── low_50
+│       ├── 86_35.txt
+│       ├── 222_10.txt
+│       ├── . . .
+│       └── 68669_14.txt
+└── train
+    ├── high_80
+    │   ├── 0_100.txt
+    │   ├── 5_95.txt
+    │   ├── . . .
+    │   └── 16428_80.txt
+    └── low_50
+        ├── 3_45.txt
+        ├── 26_48.txt
+        ├── . . .
+        └── 68633_5.txt
