@@ -18,3 +18,6 @@
     - `album-review-links-low.py` - Same as above, except 2010s albums and links sort reviews by worst.
     - `album-reviews.py` - Produces a file containing many reviews of albums from the 2010s. **Takes several hours. This is on purpose, so that we don't send too many requests all at once.**
     - `album-reviews-low.py` - Same as above, but from the 2010s. **Takes several hours. This is on purpose, so that we don't send too many requests all at once.**
+- `data-split-scripts` - To split CSV files into individual text files and make testing set.
+    - `Sorting.py` - Reorganizes single text file of reviews into folders of individual review text files according to whether they correspond to a low, mid, or high score. NR reviews excluded.
+    - `MakeTestingSet.py` - Extracts 20% of files to put into a new folder for a testing set.
