@@ -1,5 +1,7 @@
 # review-predictions
 
+Code repository for the data and scripts that I collected and/or made and/or used to train and test a recurrent neural network which predicts whether album reviews corresponded to a high score or a low score. An application of sentiment analysis.
+
 ## Folder and File Breakdown
 
 - `data` - If you just want the raw data, you can find it here!
